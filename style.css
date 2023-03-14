@@ -1,0 +1,113 @@
+/*Style*/
+* {
+            box-sizing: border-box;
+        }
+body {
+}
+
+header {
+	display: flex;
+	position: absolute;
+	width: 100%;
+	font-family: "Brush Script MT", cursive;
+}
+
+.div1 {
+	width: 50%;
+    float: left;
+    margin-right: 110px ;
+    margin-left: 70px;
+}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	color: black;
+}
+
+.div2 {
+	width: 50%;
+	float: right;
+}
+
+#main-layout {
+	display: flex;
+	justify-content: space-around;
+}
+
+.main-item1 {
+	width: 45%;
+}
+
+.main-item2 {
+	width: 55%;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+    padding: 0;
+}
+
+li {
+	display: inline;
+	float: left;
+	margin-right: 20px;
+}
+
+nav a {
+	margin-right: 20px;
+}
+
+
+
+.ded {
+	font-family: helvetica, sans-serif;
+	font-size: 35px;
+	margin-top: 120px;
+	margin-left: 78px;
+}
+
+.dod {
+	font-family: helvetica, sans-serif;
+	font-size: 40px;
+	color: #92CDFF;
+	margin-top: 10px;
+	margin-left: 78px;
+	font-weight: bold;
+}
+
+.sq {
+	font-family: helvetica, sans-serif;
+	margin-top: 10px;
+	margin-left: 78px;
+	width: 250px;
+	font-size: 11px;
+}
+
+.towch {
+	color: white;
+	font-family:helvetica, sans-serif;
+}
+
+.mapp {
+	margin-top: 50px;
+	margin-left: 78px;
+	font-family: helvetica, sans-serif;
+	font-size: 11px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.co {
+	box-shadow: 4px 4px 3px lightgray;
+}
+
+.summ {
+	margin-left: 440px;
+	background-color: #FFD62C;
+	border: 1px solid #FFD62C;
+	margin-top: 0px;
+	color: white;
+}
